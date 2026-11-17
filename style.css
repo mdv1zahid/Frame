@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+font-family: "Roboto", sans-serif;
+}
+.boxes{
+    display: flex;
+    align-items: center;
+    /* gap: 40px; */
+    width: 90%;
+    margin: 20px auto;
+}
+.name{
+    margin: 91px 124px;
+}
+.name p:nth-child(1){
+font-size: 55px;
+width: 487px;
+height: 93px;
+font-weight: bold;
+}
+.name p:nth-child(2){
+    margin-top: 20px;
+font-size: 24px;
+width: 662px;
+}
+.name p:nth-child(3){
+font-size: 24px;
+margin-top: 40px;
+width: 665px;
+}
+img{ 
+    margin-top: 100px;
+    width: 314px;
+    height: 315px;
+}
+
+
+
+@media (max-width: 660px){
+.boxes{
+    flex-direction: column;
+}
+.name p:nth-child(1){
+font-size: 26px;
+width: 264px;
+height: 34px;
+font-weight: bold;
+}
+.name p:nth-child(2){
+font-size: 12px;
+width: 308.47px;
+}
+.name p:nth-child(3){
+    margin-top: 20px;
+font-size: 12px;
+width: 308.47px;
+}
+img{ 
+    margin-top: -90px;
+    width: 170.55px;
+    height: 160.29px;
+}
+}
+@media (min-width:661px) and (max-width:991px){
+.name p:nth-child(1){
+font-size: 37px;
+width: 311px;
+height: 37px;
+font-weight: bold;
+}
+.name p:nth-child(2){
+font-size: 14px;
+width: 383.41px;
+}
+.name p:nth-child(3){
+    margin-top: 20px;
+font-size: 14px;
+width: 381.41px;
+}
+img{ 
+    margin-left: -100px;
+    width: 170.55px;
+    height: 160.29px;
+}
+}
